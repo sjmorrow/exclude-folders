@@ -38,6 +38,6 @@ define(function (require, exports, module) {
             return false;
         }
         
-        return !name.match(/node_modules/);
+        return !name.match(/ext_lib|node_modules|bower_components/);
     };
 });
